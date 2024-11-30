@@ -1,0 +1,5 @@
+Libraries: The code uses rpart for decision trees, caret for handling data splitting and metric calculation, and dplyr for data manipulation.
+
+Function evaluate_decision_tree: It performs stratified K-fold cross-validation and computes various metrics for model evaluation.
+
+MCC Calculation: A custom function calculates Matthews Correlation Coefficient (MCC) based on the confusion matrix derived from predictions.
